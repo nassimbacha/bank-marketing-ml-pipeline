@@ -9,12 +9,12 @@ End-to-end machine learning pipeline to predict whether a bank client will subsc
 3. Build a reproducible and automated sklearn pipeline
 
 ## Methodology
-1. **Data Preparation** — Loading train (45,211 obs.) and test sets, variable typing
-2. **EDA** — Univariate and bivariate analysis, correlation matrix (Pearson & Spearman), KDE plots
-3. **Preprocessing** — StandardScaler (numerical), OneHotEncoder drop='first' (categorical), ColumnTransformer
-4. **Feature Selection** — SelectKBest with Mutual Information (k=15) to detect non-linear relationships
-5. **Modeling** — RandomForestClassifier (200 trees, random_state=42)
-6. **Evaluation** — Accuracy, precision, recall, F1-score, confusion matrix
+1. **Data Preparation** - Loading train (45,211 obs.) and test sets, variable typing
+2. **EDA** - Univariate and bivariate analysis, correlation matrix (Pearson & Spearman), KDE plots
+3. **Preprocessing** - StandardScaler (numerical), OneHotEncoder drop='first' (categorical), ColumnTransformer
+4. **Feature Selection** - SelectKBest with Mutual Information (k=15) to detect non-linear relationships
+5. **Modeling** - RandomForestClassifier (200 trees, random_state=42)
+6. **Evaluation** - Accuracy, precision, recall, F1-score, confusion matrix
 
 ## Key Results
 - **Validation accuracy:** 90.5%
